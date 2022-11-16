@@ -1,0 +1,39 @@
+body {
+  background-color: rgba(255, 255, 0, 0.7);
+  color: black;
+}
+
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: solid 0.3vh blue;
+  border-radius: 2vh;
+  margin-top: 16vh;
+  padding: 2vh;
+}
+
+input {
+  border: none;
+  border-bottom: solid red 0.25vh;
+  background-color: transparent;
+  font-size: 2em;
+  text-align: center;
+}
+
+.city {
+  font-size: 4em;
+}
+
+.temp {
+  font-size: 7em;
+}
+
+.condition{
+  font-size: 4em;
+}
+
+.date {
+  font-size: 2em;
+}
